@@ -88,7 +88,8 @@
             <h2 class="second-title">Our Team</h2>
             <ul class="picture-list">
                 <li class="picture">
-                    <img src="./images/img.jpg"
+                    <img src="./images/img1-mob.jpg"
+                        srcset="./images/img1-mob.jpg 1x,./images/img1@2x.jpg 2x"
                         alt="Man with beard and brown eyes"
                         width="264"
                         height="260">
@@ -128,8 +129,9 @@
                     </div>
                 </li>
                 <li class="picture">
-                    <img src="./images/img2.jpg"
+                    <img src="./images/img2-mob.jpg"
                         alt="Smiling man with blue eyes"
+                        srcset="./images/img2-mob.jpg 1x, ./images/img2@2x.jpg 2x"
                         width="264"
                         height="260">
                     <div class="name-info">
@@ -168,8 +170,9 @@
                     </div>
                 </li>
                 <li class="picture">
-                    <img src="./images/img3.jpg"
+                    <img src="./images/img3-mob.jpg"
                         alt="Smiling woman"
+                        srcset="./images/img3-mob.jpg 1x, ./images/img3@2x.jpg 2x"
                         width="264"
                         height="260">
                     <div class="name-info">
@@ -208,8 +211,9 @@
                     </div>
                 </li>
                 <li class="picture">
-                    <img src="./images/img4.jpg"
+                    <img src="./images/img4-mob.jpg"
                          alt="Smiling man with dark hair"
+                         srcset="./images/img4-mob.jpg 1x, ./images/img4@2x.jpg 2x"
                          width="264"
                          height="260">
                     <div class="name-info">
@@ -256,10 +260,17 @@
             <ul class="card-set">
                 <li class="item">
                     <div class="overlay">
-                    <img src="./images/img5.jpg"
-                         alt="Picture of an app"
-                         width="360"
-                         height="300">
+                    <picture>
+                        <source media="(min-width: 1440px)"
+                                srcset="./images/img5.jpg 1x, ./images/img5@2x.jpg 2x"/>
+                        <source media="(min-width: 768px)"
+                                srcset="./images/img5-tab.jpg 1x, ./images/img5-tab@2x.jpg 2x"/>
+                        <source media="(max-width: 768px)"
+                                srcset="./images/img5-mob.jpg 1x, ./images/img5-mob@2x.jpg 2x"/>
+                        <img src="./images/img5-tab.jpg"
+                                alt="Picture of an app"
+                                width="360">
+                    </picture>
                     <p class="overlay-text"> 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                     <div class="aaa">
@@ -269,10 +280,17 @@
                 </li>
                 <li class="item">
                     <div class="overlay">
-                    <img src="./images/img6.jpg"
+                    <picture>
+                        <source media="(min-width: 1440px)"
+                        srcset="./images/img6.jpg 1x, ./images/img6@2x.jpg 2x"/>
+                        <source media="(min-width: 768px)"
+                        srcset="./images/img6-tab.jpg 1x, ./images/img6-tab@2x.jpg 2x"/>
+                        <source media="(max-width: 768px)"
+                        srcset="./images/img6-mob.jpg 1x, ./images/img6-mob@2x.jpg 2x"/>
+                        <img src="./images/img6-tab.jpg"
                          alt="Picture of a hand"
-                         width="360"
-                         height="300">
+                         width="360">
+                    </picture>
                          <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                     <div class="aaa">
@@ -282,10 +300,17 @@
                 </li>
                 <li class="item">
                     <div class="overlay">
-                        <img src="./images/img7.jpg"
-                         alt="laptop and phone"
-                         width="360"
-                         height="300">
+                    <picture>
+                        <source media="(min-width: 1440px)"
+                        srcset="./images/img7.jpg 1x, ./images/img7@2x.jpg 2x"/>
+                        <source media="(min-width: 768px)"
+                        srcset="./images/img7-tab.jpg 1x, ./images/img7-tab@2x.jpg 2x"/>
+                        <source media="(max-width: 768px)"
+                        srcset="./images/img7-mob.jpg 1x, ./images/img7-mob@2x.jpg 2x"/>
+                        <img src="./images/img7-tab.jpg"
+                        alt="laptop and phone"
+                        width="360">
+                    </picture>
                          <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                     <div class="aaa">
@@ -295,10 +320,17 @@
                 </li>
                 <li class="item">
                     <div class="overlay">
-                        <img src="./images/img8.jpg"
-                         alt="driver's hands"
-                         width="360"
-                         height="300">
+                        <picture>
+                            <source media="(min-width: 1440px)"
+                                    srcset="./images/img8.jpg 1x, ./images/img8@2x.jpg 2x"/>
+                            <source media="(min-width: 768px)"
+                                    srcset="./images/img8-tab.jpg 1x, ./images/img8-tab@2x.jpg 2x"/>
+                            <source media="(max-width: 768px)"
+                                    srcset="./images/img8-mob.jpg 1x, ./images/img8-mob@2x.jpg 2x"/>
+                            <img src="./images/img8-tab.jpg"
+                                    alt="driver's hands"
+                                    width="360">
+                        </picture>
                          <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                     <div class="aaa">
@@ -308,10 +340,17 @@
                 </li>
                 <li class="item">
                     <div class="overlay">
-                        <img src="./images/img9.jpg"
-                         alt="phone's screen"
-                         width="360"
-                         height="300">
+                        <picture>
+                            <source media="(min-width: 1440px)"
+                                    srcset="./images/img9.jpg 1x, ./images/img9@2x.jpg 2x"/>
+                            <source media="(min-width: 768px)"
+                                    srcset="./images/img9-tab.jpg 1x, ./images/img9-tab@2x.jpg 2x"/>
+                            <source media="(max-width: 768px)"
+                                    srcset="./images/img9-mob.jpg 1x, ./images/img9-mob@2x.jpg 2x"/>
+                            <img src="./images/img9-tab.jpg"
+                                    alt="phone's screen"
+                                    width="360">
+                        </picture>
                          <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                     <div class="aaa">
@@ -321,10 +360,17 @@
                 </li>
                 <li class="item">
                     <div class="overlay">
-                        <img src="./images/img10.jpg"
-                         alt="smiling girl"
-                         width="360"
-                         height="300">
+                        <picture>
+                            <source media="(min-width: 1440px)"
+                                    srcset="./images/img10.jpg 1x, ./images/img10@2x.jpg 2x"/>
+                            <source media="(min-width: 768px)"
+                                    srcset="./images/img10-tab.jpg 1x, ./images/img10-tab@2x.jpg 2x"/>
+                            <source media="(max-width: 768px)"
+                                    srcset="./images/img10-mob.jpg 1x, ./images/img10-mob@2x.jpg 2x"/>
+                            <img src="./images/img10-tab.jpg"
+                                 alt="smiling girl"
+                                 width="360">
+                        </picture>
                          <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                     <div class="aaa">
