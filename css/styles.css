@@ -110,9 +110,8 @@ nav .logo-name{
     visibility: hidden;
     pointer-events: none;
 }
-.mob-menu-nav-list{
-    padding-top: 72px;
-    margin-bottom: 60px;
+.nav-menu-container{
+    margin-bottom: auto;
 }
 .mob-menu-list-item:not(:last-child){
     margin-bottom: 40px;
@@ -141,10 +140,16 @@ nav .logo-name{
     color: #434455;
     font-style: normal;
 }
+.mob-menu-info{} 
+.current{
+    color: #4d5ae5;
+}
 .mob-menu-container{
+    display: flex;
+    flex-direction: column;
     max-width: 320px;
     margin: 0 auto;
-    padding-top: 24px;
+    padding-top: 72px;
     padding-bottom: 40px;
     padding-right: 24px;
     padding-left: 16px;
@@ -220,7 +225,6 @@ nav .logo-name{
     border-radius: 4px;
     /* margin-top: 48px; */
     margin-top: 72px;
-    margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 4px 4px 0px #00000026;
@@ -782,7 +786,7 @@ textarea::placeholder{
         row-gap: 72px;
     }
     .item{
-        width: calc((100% - 2*24px) / 2);
+        width: calc((100% - 24px) / 2);
     }
     .main-button{
         margin-top: 36px;
@@ -853,7 +857,7 @@ textarea::placeholder{
     }
     .footer-container{
         flex-direction: row;
-        max-width: 768px;
+        max-width: 584px;
         flex-wrap: wrap;
         align-items: baseline;
         row-gap: 72px;
@@ -896,6 +900,9 @@ textarea::placeholder{
     .modal{
         width: 408px;
         min-height: 584px;
+    }
+    .footer-social-media-container{
+        margin-top: 0;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
